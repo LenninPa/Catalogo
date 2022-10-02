@@ -6,7 +6,6 @@
 	height: 230px;
 	margin: auto;
 	display: flex;
-
 	flex-direction: column;
 	@media screen and (max-width: 768px) {
 		height: 200px;
@@ -21,16 +20,16 @@
 	.carousel_img_container{
 		width: 100%;
 		height: 100%;
-		margin-left:auto;
+		margin: auto;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 
 		animation: addd 20s  infinite;
-		animation-timing-function: cubic-bezier(0, 3.09, 0.3, 0.78);
+		animation-timing-function: cubic-bezier(0, 3.5, 0.3, 0.65);
 
 		@keyframes addd{
-			16.66%{background-image: url(../img/adhesivosadd.png);}
+			16.66%{background-image: url(../img/newadd1.png);}
 			33.33%{background-image: url(../img/decoracionadd.png);}
 			49.99%{background-image: url(../img/escolaradd.png);}
 			66.65%{background-image: url(../img/oficinaadd.png);}
@@ -41,10 +40,10 @@
 			width: 65%;
 		}
 		@media screen and (min-width: 468px) {
-			width: 55%;
+			width: 100%;
 		}
 		@media screen and (max-width: 320px) {
-			width: 85%;
+			width: 100%;
 		}
 
 		

@@ -19,14 +19,14 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 0.5em;
-  background: #5ddcde;
+  background: #45c051;
   z-index: 100;
 }
 .header .header_title {
   font-size: 1.2em;
   letter-spacing: 1px;
   font-variant: small-caps;
-  color: #10301C;
+  color: #254832;
   font-weight: normal;
 }
 @media screen and (min-width: 320px) {
@@ -44,24 +44,24 @@
   transition: 0.4s;
   padding: 0.2em;
   position: relative;
-  border: 2px solid #10301C;
+  border: 2px solid #254832;
   border-radius: 0.4em;
-  color: #10301C;
+  color: #254832;
 }
 .header .header_Menu:hover {
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  background: #72e1e2;
+  background: #58c663;
 }
 .header .header_mall {
   height: 35px;
   width: 35px;
 }
 .header .header_mall_count {
-  border: 1px solid #10301C;
-  color: #10301C;
+  border: 1px solid #254832;
+  color: #254832;
   font-size: 0.7em;
-  background: #9deaeb;
+  background: #7ed386;
   border-radius: 100%;
   padding: 0.4em;
   display: -webkit-box;
@@ -115,18 +115,18 @@
 .carousel_main .carousel_img_container {
   width: 100%;
   height: 100%;
-  margin-left: auto;
+  margin: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-animation: addd 20s infinite;
           animation: addd 20s infinite;
-  -webkit-animation-timing-function: cubic-bezier(0, 3.09, 0.3, 0.78);
-          animation-timing-function: cubic-bezier(0, 3.09, 0.3, 0.78);
+  -webkit-animation-timing-function: cubic-bezier(0, 3.5, 0.3, 0.65);
+          animation-timing-function: cubic-bezier(0, 3.5, 0.3, 0.65);
 }
 @-webkit-keyframes addd {
   16.66% {
-    background-image: url(../img/adhesivosadd.png);
+    background-image: url(../img/newadd1.png);
   }
   33.33% {
     background-image: url(../img/decoracionadd.png);
@@ -146,7 +146,7 @@
 }
 @keyframes addd {
   16.66% {
-    background-image: url(../img/adhesivosadd.png);
+    background-image: url(../img/newadd1.png);
   }
   33.33% {
     background-image: url(../img/decoracionadd.png);
@@ -171,12 +171,12 @@
 }
 @media screen and (min-width: 468px) {
   .carousel_main .carousel_img_container {
-    width: 55%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 320px) {
   .carousel_main .carousel_img_container {
-    width: 85%;
+    width: 100%;
   }
 }
 
@@ -185,11 +185,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #1D4E5C;
+  background: #262e45;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #5DDCDE;
+  background: #45c051;
 }
 
 .main_container {
@@ -205,7 +205,7 @@ body::-webkit-scrollbar-thumb {
 .main_container .main_container_titles {
   width: 50%;
   margin: auto;
-  background: #1D4E5C;
+  background: #262e45;
   color: white;
   padding: 0.5em;
   font-variant: small-caps;
@@ -214,10 +214,8 @@ body::-webkit-scrollbar-thumb {
 }
 .main_container .container_products {
   width: 100%;
-  margin: auto;
   height: 100%;
   padding: 0.3em;
-  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,8 +239,8 @@ body::-webkit-scrollbar-thumb {
   width: 170px;
   height: 285px;
   background: white;
-  -webkit-box-shadow: 0 0.1em 0.2em #10301C;
-          box-shadow: 0 0.1em 0.2em #10301C;
+  -webkit-box-shadow: 0 0.1em 0.2em #254832;
+          box-shadow: 0 0.1em 0.2em #254832;
   padding: 0.2em;
   margin: 0.4em;
   display: -webkit-box;
@@ -257,7 +255,7 @@ body::-webkit-scrollbar-thumb {
           align-items: center;
   border-bottom-left-radius: 0.4em;
   border-bottom-right-radius: 0.4em;
-  border-bottom: 50px solid #1D4E5C;
+  border-bottom: 50px solid #262e45;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -269,8 +267,8 @@ body::-webkit-scrollbar-thumb {
 .main_container .container_products .container_products_Content:hover {
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  -webkit-box-shadow: 0 -0.1em 0.3em #1D4E5C;
-          box-shadow: 0 -0.1em 0.3em #1D4E5C;
+  -webkit-box-shadow: 0 -0.1em 0.3em #262e45;
+          box-shadow: 0 -0.1em 0.3em #262e45;
 }
 .main_container .container_products .container_products_Content .container_products_Content_img {
   width: 100px;
@@ -310,22 +308,22 @@ body::-webkit-scrollbar-thumb {
 .container_pages .container_pages_cont .container_pages_nums {
   padding: 0.5em;
   margin: 0.2em;
-  color: #10301C;
+  color: #254832;
   font-size: 0.8em;
   font-variant: small-caps;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-size: 0.9em;
-  background: #5DDCDE;
-  -webkit-box-shadow: 0 0 0.1em #5DDCDE;
-          box-shadow: 0 0 0.1em #5DDCDE;
+  background: #45c051;
+  -webkit-box-shadow: 0 0 0.1em #45c051;
+          box-shadow: 0 0 0.1em #45c051;
 }
 .container_pages .container_pages_cont .container_pages_nums:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background: white;
   color: black;
-  border-color: #10301C;
+  border-color: #254832;
 }
 
 .content_footer {
@@ -340,13 +338,13 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border-top: 10px solid #5DDCDE;
+  border-top: 10px solid #45c051;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   padding: 0.5em;
   position: relative;
-  background: #5DDCDE;
+  background: #45c051;
 }
 .content_footer .content_footer_nav {
   width: 50%;
@@ -354,7 +352,7 @@ body::-webkit-scrollbar-thumb {
 .content_footer .content_footer_nav .content_footer_nav_list .content_footer_nav_list_link {
   font-size: 0.9em;
   position: relative;
-  color: #10301C;
+  color: #254832;
 }
 .content_footer .content_footer_nav .content_footer_nav_list .content_footer_nav_list_link:hover:before {
   width: 100%;
@@ -364,14 +362,14 @@ body::-webkit-scrollbar-thumb {
   content: "";
   width: 0%;
   height: 2px;
-  background: #10301C;
+  background: #254832;
   position: absolute;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .content_footer .content_footer_credits {
   padding: 0.5em;
-  color: #10301C;
+  color: #254832;
   font-weight: bolder;
   position: relative;
   -webkit-box-pack: center;
@@ -399,7 +397,7 @@ body::-webkit-scrollbar-thumb {
   content: "";
   width: 0%;
   height: 2px;
-  background: #10301C;
+  background: #254832;
   position: absolute;
   -webkit-transition: 0.5s;
   transition: 0.5s;

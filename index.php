@@ -1,6 +1,3 @@
-<?php 
-	include 'php/contsomechild.php';
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

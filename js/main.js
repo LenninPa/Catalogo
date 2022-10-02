@@ -1,1 +1,0 @@
-const HeaderDoc = document.querySelector(".header");
