@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<!---Este es un comentario parta ver si se cambio y a ver si entendi el conceptp de Git-->
 	<meta charset="utf-8">
 	<title>Catalogo de Productos</title>
 	<meta name="Catalogo de Ventas" description="Venta de Articulos de Libreria, articulos varios.">
