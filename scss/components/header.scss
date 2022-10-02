@@ -1,0 +1,61 @@
+@use 'components/reset' as *;
+@use 'components/colors' as *;
+
+.header{
+	display: flex;
+	position: sticky;
+
+	top: 0;
+	align-items: center;
+	padding:.5em;
+	background: transparentize($greentwo, 0%);
+	z-index: 100;
+	.header_title{
+		font-size: 1.2em;
+		letter-spacing: 1px;
+		font-variant: small-caps;
+		color: $greenone;
+		font-weight: normal;
+		@media screen and (min-width: 320px) {
+			font-size: 1.2em;
+		}
+	}
+	.header_Menu{
+		margin-left: auto;
+		font-variant: small-caps;
+		font-weight: normal;
+		cursor: default;
+		font-size: .9em;
+		transition: .4s;
+		padding: .2em;
+		position: relative;
+		border: 2px solid $greenone;
+		border-radius:.4em;
+		color: $greenone;
+		&:hover{
+			transition: .4s;
+			background: lighten($greentwo, 5%);
+		}
+	}
+	.header_mall{
+		height: 35px;
+		width: 35px;
+	}
+	.header_mall_count{
+		border: 1px solid $greenone;
+		color: $greenone;
+		font-size: .7em;
+		background: lighten($greentwo, 15%);
+		border-radius:100%;
+		padding: .4em;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-variant: small-caps;
+		font-weight: normal;
+		position: absolute;
+		right: 0%;
+		top: 10%;
+	}
+}
