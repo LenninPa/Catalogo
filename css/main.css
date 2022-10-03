@@ -87,7 +87,7 @@
 .carousel_main {
   position: relative;
   width: 100%;
-  height: 100px;
+  height: 170px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -99,24 +99,24 @@
 }
 @media screen and (max-width: 768px) {
   .carousel_main {
-    height: 100px;
+    height: 160px;
   }
 }
 @media screen and (max-width: 468px) {
   .carousel_main {
-    height: 100px;
+    height: 160px;
   }
 }
 @media screen and (max-width: 320px) {
   .carousel_main {
-    height: 100px;
+    height: 160px;
   }
 }
 .carousel_main .carousel_img_container {
   width: 100%;
-  height: 100%;
+  height: 300px;
   margin: auto;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-animation: addd 20s infinite;
@@ -129,19 +129,19 @@
     background-image: url(../img/newadd1.png);
   }
   33.33% {
-    background-image: url(../img/decoracionadd.png);
+    background-image: url(../img/newadd2.png);
   }
   49.99% {
-    background-image: url(../img/escolaradd.png);
+    background-image: url(../img/newadd1.png);
   }
   66.65% {
-    background-image: url(../img/oficinaadd.png);
+    background-image: url(../img/newadd2.png);
   }
   83.31% {
-    background-image: url(../img/papeleriaadd.png);
+    background-image: url(../img/newadd1.png);
   }
   100% {
-    background-image: url(../img/serviciosadd.png);
+    background-image: url(../img/newadd2.png);
   }
 }
 @keyframes addd {
@@ -149,24 +149,24 @@
     background-image: url(../img/newadd1.png);
   }
   33.33% {
-    background-image: url(../img/decoracionadd.png);
+    background-image: url(../img/newadd2.png);
   }
   49.99% {
-    background-image: url(../img/escolaradd.png);
+    background-image: url(../img/newadd1.png);
   }
   66.65% {
-    background-image: url(../img/oficinaadd.png);
+    background-image: url(../img/newadd2.png);
   }
   83.31% {
-    background-image: url(../img/papeleriaadd.png);
+    background-image: url(../img/newadd1.png);
   }
   100% {
-    background-image: url(../img/serviciosadd.png);
+    background-image: url(../img/newadd2.png);
   }
 }
 @media screen and (min-width: 768px) {
   .carousel_main .carousel_img_container {
-    width: 65%;
+    width: 100%;
   }
 }
 @media screen and (min-width: 468px) {
