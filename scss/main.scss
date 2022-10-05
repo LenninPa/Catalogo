@@ -3,14 +3,14 @@
 //////////////////////////////////////
 @use 'components/header';
 @use 'components/carousel';
+
 body::-webkit-scrollbar{
-	width: 1em;
+	width: .5em;
+	
 }
-body::-webkit-scrollbar-track{
-	background: $greyone;
-}
+
 body::-webkit-scrollbar-thumb{
-	background: $greentwo;
+	background: black;
 }
 .main_container{
 	width: 100%;
@@ -107,12 +107,12 @@ body::-webkit-scrollbar-thumb{
 		.container_pages_nums{
 			padding: .5em;
 			margin: .2em;
-			color: $greenone;
+			color: white;
 			font-size: .8em;
 			font-variant: small-caps;
 			transition: .5s;
 			font-size: .9em;
-			background: $greentwo;
+			background: $greyone;
 			box-shadow:0 0 .1em $greentwo;
 			&:hover{
 				transition: .5s;
@@ -131,7 +131,7 @@ body::-webkit-scrollbar-thumb{
 	font-variant: small-caps;
 	display: flex;
 	flex-direction: column;
-	border-top: 10px solid $greentwo;
+	border-top: 10px solid $greyone;
 	justify-content: center;
 	padding: .5em;
 	position: relative;
@@ -173,7 +173,7 @@ body::-webkit-scrollbar-thumb{
 		bottom: 0;
 		height: 50px;
 		margin:-1em auto;
-		width: 50%;
+		width: 50vh;
 		display: flex;
 		align-items: center;
 		&:hover:before{
